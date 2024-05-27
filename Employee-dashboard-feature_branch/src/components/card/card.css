@@ -1,0 +1,63 @@
+.profilePic {
+  width: 275px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.bottom {
+  width: 80%;
+}
+.bgImg {
+  width: 100%;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.mid > h2 {
+  color: rgb(30 64 174);
+  font-size: 1.4rem;
+}
+
+.mid > p {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.mid > span {
+  font-size: 1rem;
+}
+
+.top_filter {
+  position: absolute;
+  width: 310px;
+  height: 120px;
+  z-index: 3;
+  bottom: 0;
+  background-color: rgba(90, 113, 190, 0.247);
+  filter: blur(30px);
+}
+
+.cardDiv {
+  position: relative;
+  overflow: hidden;
+  width: 275px;
+  height: 475px;
+  border: 1px solid rgba(209, 206, 206, 0.677);
+  border-radius: 14px;
+  padding: 13px;
+  background-color: #fff;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

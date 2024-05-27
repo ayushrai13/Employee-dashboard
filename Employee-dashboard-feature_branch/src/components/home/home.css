@@ -1,0 +1,120 @@
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.home {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.title > h1 {
+  font-size: 1.6rem;
+  color: #1d2a3b;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateNtime {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dateNtime > p {
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 2vw;
+}
+
+.left {
+  width: 100%;
+}
+
+.right {
+  width: 20%;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    display: block;
+  }
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: left;
+}
+
+th {
+  height: 30px;
+  text-align: left;
+  padding: 12px 20px;
+  background-color: #1e40ae;
+  color: white;
+  font-size: 16px;
+}
+
+td {
+  height: 30px;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  background-color: #dcdcdc;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Rank Image */
+.rankImg {
+  width: 20px;
+  padding-left: 20px;
+}
+
+/* Gradient Background */
+.emp_name_n_pic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Profile Image */
+.profile-img {
+  border-radius: 50%;
+  border: 1px solid #f2f2f2;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
